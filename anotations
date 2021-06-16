@@ -1,0 +1,11 @@
+background menu---> #3a35c1
+background input --> #c8d0e7
+menu altura de 48px
+button compatilhar-->  #3a35c1
+	background-color: #3431ad;
+hover 
+~15px~(button1^15px<>15px) ~26px~ (word^12px<>37px) ~26px~ (button2^12px<>228px) ~102px~ 
+(input^32px<>468px) ~447px~ (svg^14px<>14px) ~11px~ (texto^10px<>112px) ~26px~ 
+(button3^30px<>30px) ~8px~
+
+
