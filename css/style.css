@@ -129,22 +129,26 @@ input::placeholder {
  }
 
 #btn-10{
-	width: 118px;
+	width: 117px;
  	height: 28px;
- 	left: 385px;
- 	top: 2px;
+ 	left: 383px;
+ 	top: 4px;
  	background-color:  #3431ad;
  	color: white;
- 	border-style: none;
+ 	border: 1px solid rgba(0, 0, 0, 0.2);
  	border-radius: 2px;
+ 	font-weight: bold;
+ 	
 }
  #btn-11{
- 	width: 118px;
+
+ 	width: 116px;
  	height: 28px;
- 	left: 361px;
- 	top: 3px;
+ 	left: 365px;
+ 	top: 4px;
  	background-color: white;
  	color: #3a35c1;
  	border: 1px solid rgba(0, 0, 0, 0.2);
  	border-radius: 2px;
+ 	font-weight: bold;
  }
