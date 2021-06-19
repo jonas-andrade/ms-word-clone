@@ -86,6 +86,13 @@ input{
 input::placeholder {
 	color: hsl(225, 100%, 40%);
 }
+input:focus{
+	outline: none;
+	background-color: white;
+	
+	
+}
+
 
 .premium{
 	position: absolute;
@@ -113,38 +120,71 @@ input::placeholder {
  	box-shadow: 0  0px 3px rgba(0, 0, 0, 0.3);
  	
  }
+
+/*.................................................*/
+
  .ribbom-up {
+ 	
  	width: 100vw;
  	height: 38px;
- 	
-
  }
  .ribbom-up > button{
- 	position: relative;
- 	left: 22px;
- 	top: 6px;
- 	margin-right: 28px;
  	border-style: none;
  	letter-spacing: 0.5px;
- }
 
+ }
+.buttons-left{
+	position: absolute;
+	display: flex;
+	width: 45vw;
+	top: 8px;
+	left: 23px;
+}
+.buttons-left > button{
+	margin-right: 31px;
+	border-style: none;
+    font-family: sans-serif;
+}
+.buttons-left > button:hover{
+	font-weight: bold;
+	border-bottom: 3px solid blue;
+	padding-bottom: 4px;
+
+
+}
+
+#btn-9{
+	position: absolute;
+	width: 95px;
+	height: 28px;
+	right: 651px;
+	top: 4px;
+
+	background-color: #ffffff;
+	color: #3431ad;
+ 	border: 1px solid rgba(0, 0, 0, 0.2);
+ 	border-radius: 3px;
+	font-weight: bold; 	
+}
 #btn-10{
-	width: 117px;
+	position: absolute;
+	width: 119px;
  	height: 28px;
- 	left: 383px;
+ 	right: 132px;
  	top: 4px;
+ 	
  	background-color:  #3431ad;
  	color: white;
- 	border: 1px solid rgba(0, 0, 0, 0.2);
- 	border-radius: 2px;
+ 	border-style: none;
+ 	border-radius: 3px;
  	font-weight: bold;
  	
 }
  #btn-11{
-
+ 	position: absolute;
  	width: 116px;
  	height: 28px;
- 	left: 365px;
+ 	right: 8px;
  	top: 4px;
  	background-color: white;
  	color: #3a35c1;
@@ -152,3 +192,61 @@ input::placeholder {
  	border-radius: 2px;
  	font-weight: bold;
  }
+/*............................................*/
+ svg.a{
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	left: 42px;
+	top: 49px;
+	
+}
+svg.b{
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	left: 90px;
+	top: 50px;
+}
+
+svg.reload{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 18px;
+	top: 46px;
+}
+
+svg.paste{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 66px;
+	top: 46px;
+}
+svg.pa{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 115px;
+	top: 46px;
+}
+svg > path.back-color {
+    fill: rgba(250, 250, 250, 1.000);
+}
+svg .contorno {
+    fill: rgba(58, 58, 56, 1.000);
+}
+
+svg > path.ponta{
+    fill: rgba(222, 108, 0, 1.000);
+}
+svg > path.ponta-in{
+    fill: rgba(225, 225, 0, 1.000);
+}
+.buttons-1{
+	width: 150px;
+	height: 32px;
+	margin-top: 2px;
+	border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
