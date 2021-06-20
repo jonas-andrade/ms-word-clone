@@ -96,9 +96,13 @@ input:focus{
 
 .premium{
 	position: absolute;
-	right: 68px;
-	top: 15px;
+	right: 64px;
+	top: 16px;
 	color: white;
+	font-size: 15px;
+	
+
+
 }
 .btn3{
 	position: absolute;
