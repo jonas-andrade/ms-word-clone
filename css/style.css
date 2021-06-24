@@ -212,6 +212,24 @@ svg.b{
 	left: 90px;
 	top: 50px;
 }
+svg.c{
+	position: absolute;
+	width: 11px;
+	height: 11px;
+	left: 336px;
+	top: -30px;
+	fill: white;
+}
+svg.d{
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	right: 658px;
+	top: 13px;
+	fill: #3a35c1;
+
+	
+}
 
 svg.reload{
 	position: absolute;
@@ -253,4 +271,47 @@ svg > path.ponta-in{
 	height: 32px;
 	margin-top: 2px;
 	border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+ .diamante{
+	position: absolute;
+	right: 186px;
+	top: -31px;
+	width: 16px;
+	height: 16px;
+}
+svg .diamante-border{
+	fill: white;
+}
+.lapis{
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	right: 720px;
+	top: 10px;
+}
+svg .lapis-border{
+	fill: #3a35c1;
+}
+#fonts{
+	position: absolute;
+	left: 154px;
+	top: 42px;
+	width: 126px;
+	height: 28px;
+	border-radius: unset;
+	background-color: white;
+
+}
+#font-s{
+	position: absolute;
+	left: 279px;
+	top: 42px;
+	width: 51px;
+	height: 28px;
+	border-radius: unset;
+	background-color: white;
+
+}
+#fonts::placeholder{
+	background-color: blue;
 }
