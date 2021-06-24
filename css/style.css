@@ -302,6 +302,7 @@ svg .lapis-border{
 	background-color: white;
 
 }
+
 #font-s{
 	position: absolute;
 	left: 279px;
@@ -311,7 +312,4 @@ svg .lapis-border{
 	border-radius: unset;
 	background-color: white;
 
-}
-#fonts::placeholder{
-	background-color: blue;
 }
