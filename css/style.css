@@ -408,8 +408,25 @@ svg .lapis-border{
 	
 }
 .mmm{
-	width: 900px;
-	height: 300px;
 	display: flex;
+	position: absolute;
+	left: 720px;
+	top: 40px;
+	width: 235px;
+	height: 30px;
+	border-right: 1px solid rgba(0, 0, 0, 0.2);
+	
 }
- 
+.mmmm{
+	display: flex;
+	position: absolute;
+	left: 990px;
+	top: 40px;
+	width: 235px;
+	height: 30px;
+	border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+ .mmmm > svg{
+ 	
+	border-right: 1px solid rgba(0, 0, 0, 0.2);
+ }
