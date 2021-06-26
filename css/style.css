@@ -231,6 +231,82 @@ svg.d{
 	
 }
 
+
+svg.e{
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	left: 585px;
+	top: 50px;
+	
+
+	
+}
+svg.f{
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	left: 630px;
+	top: 50px;
+	
+}
+svg.g{
+	position: absolute;
+	width: 12px;
+	height: 12px;
+
+	fill: #3a35c1;
+
+	
+}
+svg.h{
+	position: absolute;
+	width: 12px;
+	height: 12px;
+
+	fill: #3a35c1;
+
+	
+}
+svg.i{
+	position: absolute;
+	width: 12px;
+	height: 12px;
+
+	fill: #3a35c1;
+
+	
+}
+svg.j{
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	
+	fill: #3a35c1;
+
+	
+}
+
+svg.k{
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	
+	fill: #3a35c1;
+
+	
+}
+svg.l{
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	
+	
+
+	
+}
+
+
 svg.reload{
 	position: absolute;
 	width: 20px;
@@ -313,3 +389,27 @@ svg .lapis-border{
 	background-color: white;
 
 }
+.mm{
+	display: flex;
+	position: absolute;
+	left: 334px;
+	top: 40px;
+	width: 389px;
+	height: 30px;
+	border-right: 1px solid rgba(0, 0, 0, 0.2);
+
+
+}
+.mm > svg {
+	width: 20px;
+	height: 20px;
+	margin: 4px 12px 0 12px;
+
+	
+}
+.mmm{
+	width: 900px;
+	height: 300px;
+	display: flex;
+}
+ 
