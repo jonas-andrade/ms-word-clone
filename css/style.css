@@ -462,3 +462,43 @@ svg .lapis-border{
 	right: 15px;
 	top: 5px;
 }
+
+.aup .up-c{
+	fill: skyblue;
+}
+.adown .down-c{
+	fill: skyblue;
+}
+.lapis-e, .lapis-f{
+	fill: white;
+}
+.lapis-d ,.lapis-c{
+	fill: yellow;
+}
+.lapis-a{
+	fill: black;
+}
+.aa-d{
+	fill: red;
+}
+.bb-c{
+	fill: white;
+}
+.bb-d ,.bb-e{
+	fill: violet;
+}
+.um-b, .dois-b, .tres-c, .quatro-c {
+	fill: skyblue;
+}
+.tinta-d, .fone-b, .luz-d{
+	fill: skyblue;
+}
+.tinta-b, .caneta-b{
+	fill: white;
+}
+.lupa-b{
+	fill: white;
+}
+.caneta-c{
+	fill: blue;
+}
