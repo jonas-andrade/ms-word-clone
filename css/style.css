@@ -104,6 +104,27 @@ input:focus{
 
 
 }
+svg.compartilhar-a{
+	position: absolute;
+	width: 15px;
+	right: 230px;
+	top: -20px;
+	fill: white;
+
+
+}
+svg.compartilhar-b{
+	position: absolute;
+	width: 15px;
+	right: 104px;
+	top: -19px;
+	fill: blue;
+	
+}
+p{
+	font-size: 13px;
+	margin-left: 15px;
+}
 .btn3{
 	position: absolute;
 	right: 8px;
@@ -250,39 +271,39 @@ svg.f{
 	top: 50px;
 	
 }
+/**/
 svg.g{
 	position: absolute;
 	width: 12px;
 	height: 12px;
-
-	fill: #3a35c1;
-
-	
+	right: 595px;
+	top: 50px;
 }
 svg.h{
 	position: absolute;
 	width: 12px;
 	height: 12px;
-
-	fill: #3a35c1;
-
-	
+	right: 550px;
+	top: 50px;	
 }
+
 svg.i{
 	position: absolute;
 	width: 12px;
 	height: 12px;
-
-	fill: #3a35c1;
-
-	
+	right: 418px;
+	top: 50px;
+		
 }
+/**/
+
 svg.j{
 	position: absolute;
 	width: 12px;
 	height: 12px;
-	
-	fill: #3a35c1;
+	right: 355px;
+	top: 50px;
+
 
 	
 }
@@ -291,19 +312,15 @@ svg.k{
 	position: absolute;
 	width: 12px;
 	height: 12px;
-	
-	fill: #3a35c1;
-
-	
+	right: 300px;
+	top: 50px;	
 }
 svg.l{
 	position: absolute;
 	width: 12px;
 	height: 12px;
-	
-	
-
-	
+	right: 248px;
+	top: 50px;	
 }
 
 
@@ -397,36 +414,51 @@ svg .lapis-border{
 	width: 389px;
 	height: 30px;
 	border-right: 1px solid rgba(0, 0, 0, 0.2);
-
-
 }
 .mm > svg {
 	width: 20px;
 	height: 20px;
 	margin: 4px 12px 0 12px;
-
 	
 }
 .mmm{
 	display: flex;
 	position: absolute;
-	left: 720px;
-	top: 40px;
+	left: 725px;
+	top: 43px;
 	width: 235px;
 	height: 30px;
+
 	border-right: 1px solid rgba(0, 0, 0, 0.2);
 	
+}
+.mmm > svg{
+	width: 20px;
+	height: 20px;
+	margin: 4px 12px 0 12px;
+
 }
 .mmmm{
 	display: flex;
 	position: absolute;
-	left: 990px;
+	right: 19px;
 	top: 40px;
-	width: 235px;
+	width: 386px;
 	height: 30px;
-	border-right: 1px solid rgba(0, 0, 0, 0.2);
 }
  .mmmm > svg{
- 	
+	padding: 0 20px 0 14px;
 	border-right: 1px solid rgba(0, 0, 0, 0.2);
  }
+.mmmm > svg.light{
+	border-style: none;
+}
+.mmmm > svg.po{
+	border-left: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+.designer{
+	position: relative;
+	right: 15px;
+	top: 5px;
+}
